@@ -3,8 +3,14 @@ import React from "react";
 const About = () => {
   return (
     <React.Fragment>
-      <section>
-        <h1>ABOUT ME</h1>
+      <section className="aboutSection">
+        <h1 className="mainTitle">
+          <span>ABOUT ME</span>
+        </h1>
+        <div class="aboutImgContent">
+          <img class="img" src="./image/profile-pic.JPG" />
+          <div class="circle"></div>
+        </div>
         <div className="aboutContainer">
           <h2>
             <span className="myName">Yumi Kimbara</span>

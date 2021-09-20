@@ -1,0 +1,66 @@
+.img {
+  width: 25vw;
+  z-index: 1;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.circle {
+  opacity: 0.6;
+  height: 45vh;
+  width: 25vw;
+  z-index: -1;
+  border-radius: 63% 37% 46% 54% / 37% 33% 67% 63%;
+  background: $subColor;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+//positionをrelativeにすればheightの設定は１箇所でOK
+@mixin displayCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContainer {
+  z-index: -100;
+  background-color: $mainColor;
+
+  position: relative;
+  @include displayCenter;
+}
+
+#aboutSection {
+  margin-top: 10%;
+}
+
+.aboutContent {
+  padding: 7rem;
+  background-color: $mainColor;
+  z-index: -1;
+
+  h2 {
+    font-family: "Caveat", cursive;
+    font-size: $h2Font;
+  }
+
+  h3 {
+    font-size: $h3Font;
+    margin-top: 1.3rem;
+  }
+
+  p {
+    font-size: $pFont;
+  }
+}
+
+.aboutImgContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 7rem;
+  background-color: $mainColor;
+  z-index: -1;
+}

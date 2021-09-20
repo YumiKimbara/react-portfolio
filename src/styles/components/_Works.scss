@@ -1,0 +1,38 @@
+//////////////////////////////////////////////
+//work section
+
+.workImg {
+  padding: 3rem;
+  img {
+    width: 30vw;
+  }
+}
+
+.worksContainer {
+  margin: 0;
+  padding-bottom: 5%;
+  text-align: center;
+  align-items: center;
+}
+
+.worksDescription {
+  // Bootstrapにpaddingが設定されているから、
+  // 新しくpaddingを変更する場合は!importantで優先順位を決める必要がある。
+  padding: 2rem 3rem;
+  h3 {
+    font-size: $h3Font;
+  }
+  p {
+    font-size: $pFont;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+#worksSection {
+  margin-top: 10%;
+}
+
+.comingSoon {
+  margin-bottom: 2rem;
+}

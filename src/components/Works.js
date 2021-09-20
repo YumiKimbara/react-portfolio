@@ -1,51 +1,55 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+
 const Works = () => {
   return (
     <React.Fragment>
-      <section id="worksSection" class="fadein2">
-        <h1 class="mainTitle">
+      <section id="worksSection" className="fadein2">
+        <h1 className="mainTitle">
           <span>WORKS</span>
         </h1>
-        <div class="container">
-          <div class="row worksContainer">
-            <div class="col-5 workImg">
-              <img class="showModal1" src="./image/work1.png" />
-            </div>
-            <div class="col-7">
-              <div class="worksDescription">
+        <Container>
+          <Row className="worksContainer">
+            <Col>
+              <div className="workImg">
+                <img className="showModal1" src="./image/work1.png" />
+              </div>
+            </Col>
+            <Col>
+              <div className="worksDescription">
                 <h3>Weather App</h3>
-                <div class="skillIcons">
-                  <div class="skillIcon">
+                <div className="skillIcons">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-html5"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-css3"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="cib:js"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-react"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="cib:redux"
                       data-width="26"
                     ></span>
@@ -58,42 +62,42 @@ const Works = () => {
                   you can change from celsius to fahrenheit.
                 </p>
                 <a href="javascript:void(0);">
-                  <div class="box">
-                    <div class="boxTxt seeTheWebsite1">See the website</div>
+                  <div className="box">
+                    <div className="boxTxt seeTheWebsite1">See the website</div>
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-          <div class="row worksContainer">
-            <div class="col-7">
-              <div class="worksDescription">
+            </Col>
+          </Row>
+          <Row className="worksContainer">
+            <Col>
+              <div className="worksDescription">
                 <h3>Pokédex</h3>
-                <div class="skillIcons">
-                  <div class="skillIcon">
+                <div className="skillIcons">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-html5"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-css3"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="cib:js"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-sass"
                       data-width="26"
                     ></span>
@@ -107,48 +111,48 @@ const Works = () => {
                   or alphabet.
                 </p>
                 <a href="javascript:void(0);">
-                  <div class="box">
-                    <div class="boxTxt seeTheWebsite2">See the website</div>
+                  <div className="box">
+                    <div className="boxTxt seeTheWebsite2">See the website</div>
                   </div>
                 </a>
               </div>
-            </div>
-            <div class="col-5 works workImg">
-              <img class="showModal2" src="./image/work2.png" />
-            </div>
-          </div>
-          <div class="row worksContainer">
-            <div class="col-5 works workImg">
-              <img class="showModal4" src="./image/work3.png" />
-            </div>
-            <div class="col-7">
-              <div class="worksDescription">
+            </Col>
+            <Col className="works workImg">
+              <img className="showModal2" src="./image/work2.png" />
+            </Col>
+          </Row>
+          <Row className="worksContainer">
+            <Col className="works workImg">
+              <img className="showModal4" src="./image/work3.png" />
+            </Col>
+            <Col>
+              <div className="worksDescription">
                 <h3>Task Management App</h3>
-                <div class="skillIcons">
-                  <div class="skillIcon">
+                <div className="skillIcons">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-html5"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-css3"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="cib:js"
                       data-width="26"
                     ></span>
                   </div>
-                  <div class="skillIcon">
+                  <div className="skillIcon">
                     <span
-                      class="iconify"
+                      className="iconify"
                       data-icon="ion:logo-react"
                       data-width="26"
                     ></span>
@@ -160,29 +164,29 @@ const Works = () => {
                   application, and Material UI to create UI.
                 </p>
                 <a href="javascript:void(0);">
-                  <div class="box">
-                    <div class="boxTxt seeTheWebsite3">See the website</div>
+                  <div className="box">
+                    <div className="boxTxt seeTheWebsite3">See the website</div>
                   </div>
                 </a>
               </div>
-            </div>
-          </div>
-          <div class="row worksContainer workDescription">
-            <div class="col-7">
-              <div class="worksDescription">
-                <h3 class="comingSoon">Coming soon!</h3>
+            </Col>
+          </Row>
+          <Row className="worksContainer workDescription">
+            <Col>
+              <div className="worksDescription">
+                <h3 className="comingSoon">Coming soon!</h3>
                 <a href="javascript:void(0);">
-                  <div class="box">
-                    <div class="boxTxt">See the website</div>
+                  <div className="box">
+                    <div className="boxTxt">See the website</div>
                   </div>
                 </a>
               </div>
-            </div>
-            <div class="col-5 works workImg">
-              <img class="showModal4" src="./image/work4.jpg" />
-            </div>
-          </div>
-        </div>
+            </Col>
+            <Col className="works workImg">
+              <img className="showModal4" src="./image/work4.jpg" />
+            </Col>
+          </Row>
+        </Container>
       </section>
     </React.Fragment>
   );

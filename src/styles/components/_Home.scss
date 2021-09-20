@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+// @keyframes circleAnimation1 {
+//   0% {
+//     transform: rotate(0deg);
+//     border-radius: 75% 34% 47% 54%/47%;
+//   }
+//   25% {
+//     transform: rotate(90deg);
+//     border-radius: 62% 38% 33% 67% / 55% 56% 44% 45%;
+//   }
+//   50% {
+//     transform: rotate(180deg);
+//     border-radius: 81% 19% 20% 80% / 68% 53% 47% 32%;
+//   }
+//   75% {
+//     transform: rotate(270deg);
+//     border-radius: 40% 40% 50% 40%/30% 50% 50%;
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//     border-radius: 75% 34% 47% 54%/47%;
+//   }
+// }
+
+// @keyframes circleAnimation2 {
+//   0% {
+//     transform: rotate(0deg);
+//     border-radius: 27% 73% 33% 67% / 55% 56% 44% 45%;
+//   }
+//   25% {
+//     transform: rotate(90deg);
+//     border-radius: 27% 73% 24% 76% / 56% 33% 67% 44%;
+//   }
+//   50% {
+//     transform: rotate(180deg);
+//     border-radius: 75% 34% 47% 54%/47%;
+//   }
+//   75% {
+//     transform: rotate(270deg);
+//     border-radius: 70% 30% 54% 46% / 40% 50% 50% 60%;
+//   }
+//   100% {
+//     transform: rotate(360deg);
+//     border-radius: 27% 73% 33% 67% / 55% 56% 44% 45%;
+//   }
+// }
+
+// .circle1 {
+//   opacity: 0.6;
+//   width: 25%;
+//   position: absolute;
+//   top: 15rem;
+//   left: 2rem;
+//   height: 300px;
+//   background: $subColor; //
+//   animation: circleAnimation1 50s infinite linear;
+// }
+
+// .circle2 {
+//   opacity: 0.6;
+//   width: 20%;
+//   position: absolute;
+//   left: 8rem;
+//   top: 7rem;
+//   height: 250px;
+//   background: $mainColor;
+//   animation: circleAnimation2 35s infinite linear reverse;
+// }
+
+// .circle3 {
+//   opacity: 0.6;
+//   width: 20%;
+//   position: absolute;
+//   right: 5rem;
+//   bottom: 17rem;
+//   height: 250px;
+//   background: $subColor;
+//   animation: circleAnimation1 25s infinite linear;
+//   z-index: 1;
+// }
+
+// .circle4 {
+//   opacity: 0.6;
+//   width: 25%;
+//   position: absolute;
+//   bottom: 3rem;
+//   right: 5rem;
+//   height: 300px;
+//   background: $mainColor; //
+//   animation: circleAnimation1 35s infinite linear reverse;
+// }
+
+// .circle5 {
+//   opacity: 0.6;
+//   width: 23%;
+//   position: absolute;
+//   bottom: 10rem;
+//   right: 15rem;
+//   height: 270px;
+//   background: $subColor;
+//   animation: circleAnimation2 50s infinite linear;
+//   z-index: -1;
+// }
+
+.mainSection {
+  padding-top: 100px;
+  height: calc(100vh - 100px);
+}
+
+.mainMessage {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 15%;
+  text-align: center;
+  h1 {
+    font-family: "Caveat", cursive;
+  }
+}
+
+.myName {
+  background: $underline;
+}
+
+.readMore {
+  display: flex;
+  justify-content: center;
+  font-size: $h3Font;
+  align-items: center;
+}
+
+.readMoreDetails {
+  padding: 0 0.1rem;
+  color: $fontColor;
+  &:hover {
+    color: $fontColor;
+    text-decoration: none;
+  }
+}
+
+.mainTitle {
+  font-family: "Caveat", cursive;
+  font-size: $h1Font;
+  padding: 5rem 0 1rem 10rem;
+  margin: 0;
+  span {
+    background: $underline;
+  }
+}
+
+//////////////////////////////////////////////
+//box
+.box {
+  position: relative;
+  padding: 0.5rem;
+  width: 10vw;
+  transition: 0.3s;
+  display: inline-block;
+  //@@@set translate and box-shadow to make them look like a real button
+  &:hover {
+    background-color: $subColor;
+    transition: 0.3s;
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+  a {
+    color: $fontColor;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+//@@@brakets
+.box::before,
+.box::after,
+.boxTxt::before,
+.boxTxt::after {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+}
+
+.box::before {
+  top: 0;
+  left: 0;
+  border-top: 1px solid #333333;
+  border-left: 1px solid #333333;
+}
+.boxTxt::before {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+
+.box::after {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #333333;
+}
+.boxTxt::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+
+.boxTxt {
+  width: 100%;
+  text-align: center;
+}

@@ -6,16 +6,11 @@
   text-align: right;
   position: fixed;
   z-index: 2;
-  /* font-family: $font2; */
-  /* background: linear-gradient(
+  font-family: "Caveat", cursive;
+  background: linear-gradient(
     rgba(231, 239, 241, 0.9),
     rgba(255, 255, 255, 0.9)
-  ); */
-  /* background-color: black; */
-}
-
-.navContainer a {
-  /* color: white; */
+  );
 }
 
 .navBar {
@@ -26,47 +21,57 @@
   font-size: 1.1rem;
   position: relative;
 }
-
-.navLinks:hover {
-  text-decoration: none;
-}
-
 .navLinks:after {
-  /* contentには入れたい内容を書く */
+  //contentには入れたい内容を書く
   content: "";
   position: absolute;
-  /* positionのabsolute/relativeで位置をleftとbottomで決める。 */
+  //positionのabsolute/relativeで位置をleftとbottomで決める。
   left: 0;
   bottom: -3px;
-  /* 初期状態で下線を非表示にする */
+  //初期状態で下線を非表示にする
   width: 0%;
-  /* 下線の高さ */
+  //下線の高さ
   height: 20px;
-  background: linear-gradient(transparent 60%, #d8d8f6 80%);
+  background: $underline;
   transition: all 0.3s;
 }
 .navBar:hover .navLinks:after {
-  /* hover時に100%表示 */
+  //hover時に100%表示
   width: 100%;
 }
 
+//////////////////////////////////////////////
+//media query for ipad pro
 @media (max-width: 1024px) {
   .navContainer {
-    /* font-size: $pFont3; */
+    font-size: $pFont3;
     padding: 0.7rem;
     text-align: center;
-  }
 
-  .navContainer ul {
-    padding: 0;
+    ul {
+      padding: 0;
+    }
   }
 }
+
+//////////////////////////////////////////////
+//media query for ipad
+@media (max-width: 768px) {
+  .navContainer {
+  }
+}
+
+//////////////////////////////////////////////
+//media query for iphone
 
 @media (max-width: 414px) {
   .navContainer {
-    /* font-size: $pFont2; */
+    font-size: $pFont2;
   }
 }
+
+//////////////////////////////////////////////
+//media query for galaxy fold
 
 @media (max-width: 280px) {
   .navBar {
