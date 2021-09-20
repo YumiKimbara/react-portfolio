@@ -1,0 +1,46 @@
+.mainSection {
+  padding-top: 100px;
+  height: calc(100vh - 100px);
+}
+
+.mainMessage {
+  width: 35%;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+.mainMessage h1 {
+  text-align: center;
+  /* color: white; */
+}
+
+.myName {
+  /* color: white; */
+  /* background: $underline; */
+}
+
+/* about section */
+.section {
+  position: absolute;
+  width: 25%;
+  z-index: 1;
+  top: 20vh;
+  left: 10%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.aboutTitle {
+}
+
+.circle {
+  opacity: 0.6;
+
+  height: 320px;
+  position: absolute;
+  width: 25%;
+  z-index: 0;
+  top: 16vh;
+  left: 11%;
+  border-radius: 63% 37% 46% 54% / 37% 33% 67% 63%;
+  background: black;
+}
