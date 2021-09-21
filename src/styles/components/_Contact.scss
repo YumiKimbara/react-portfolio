@@ -1,0 +1,93 @@
+.contactSection {
+  margin-top: 10%;
+}
+
+@mixin btnCss {
+  border: 2px solid $subColor;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@mixin btnCssHover {
+  background-color: $subColor;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.contactContainer {
+  background-color: $mainColor;
+  padding: 5%;
+  text-align: center;
+}
+
+.contactGmail {
+  font-family: "Caveat", cursive;
+  font-size: $h2Font;
+  padding: 1rem;
+}
+
+@mixin displayCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  font-size: $IconFont;
+  @include displayCenter;
+  i {
+    margin: 3rem 3rem 0 3rem;
+    //0.3s to go back
+    transition-duration: 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+      transition-duration: 0.3s;
+    }
+  }
+}
+
+//////////////////////////////////////////////
+//media query for ipad pro
+
+@media (max-width: 1024px) {
+  .contactContainer {
+    padding: 5%;
+  }
+
+  .contactGmail {
+    font-size: $h2Font3;
+    padding: 0;
+  }
+
+  .icons {
+    font-size: $IconFont3;
+    @include displayCenter;
+    i {
+      margin: 1.5rem;
+    }
+  }
+}
+
+//////////////////////////////////////////////
+//no media query for ipad pro
+
+//////////////////////////////////////////////
+//media query for iphone
+
+@media (max-width: 414px) {
+  .contactGmail {
+    font-size: $h2Font2;
+  }
+
+  .icons {
+    font-size: $IconFont2;
+  }
+
+  .contactContainer {
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Icon } from "@iconify/react";
 
 const Works = () => {
   return (
     <React.Fragment>
-      <section id="worksSection" className="fadein2">
+      <section className="worksSection" className="fadein2">
         <h1 className="mainTitle">
           <span>WORKS</span>
         </h1>
@@ -20,39 +21,19 @@ const Works = () => {
                 <h3>Weather App</h3>
                 <div className="skillIcons">
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-html5"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-html5" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-css3"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-css3" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="cib:js"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="cib:js" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-react"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-react" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="cib:redux"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="cib:redux" width="26" />
                   </div>
                 </div>
                 <p>
@@ -75,32 +56,16 @@ const Works = () => {
                 <h3>Pokédex</h3>
                 <div className="skillIcons">
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-html5"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-html5" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-css3"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-css3" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="cib:js"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="cib:js" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-sass"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-sass" width="26" />
                   </div>
                 </div>
                 <p>
@@ -130,32 +95,16 @@ const Works = () => {
                 <h3>Task Management App</h3>
                 <div className="skillIcons">
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-html5"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-html5" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-css3"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-css3" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="cib:js"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="cib:js" width="26" />
                   </div>
                   <div className="skillIcon">
-                    <span
-                      className="iconify"
-                      data-icon="ion:logo-react"
-                      data-width="26"
-                    ></span>
+                    <Icon icon="ion:logo-react" width="26" />
                   </div>
                 </div>
                 <p>

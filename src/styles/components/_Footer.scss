@@ -1,0 +1,34 @@
+.copyright {
+  padding: 0.3rem;
+  text-align: center;
+  font-size: $pFont;
+  p {
+    margin: 0;
+  }
+}
+
+//////////////////////////////////////////////
+//media query for ipad pro
+
+@media (max-width: 1024px) {
+  .copyright {
+    padding: 0.3rem;
+    text-align: center;
+    font-size: $pFont3;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+//////////////////////////////////////////////
+//no media query for ipad pro
+
+//////////////////////////////////////////////
+//media query for iphone
+
+@media (max-width: 414px) {
+  .copyright {
+    font-size: $pFont2;
+  }
+}

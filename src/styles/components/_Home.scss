@@ -131,9 +131,7 @@
 
 .readMoreDetails {
   padding: 0 0.1rem;
-  color: $fontColor;
   &:hover {
-    color: $fontColor;
     text-decoration: none;
   }
 }
@@ -156,19 +154,19 @@
   width: 10vw;
   transition: 0.3s;
   display: inline-block;
+
   //@@@set translate and box-shadow to make them look like a real button
   &:hover {
     background-color: $subColor;
     transition: 0.3s;
-    transform: translateY(-3px);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    // transform: translateY(-3px);
+    // box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }
   &:active {
     transform: translateY(-1px);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
   }
   a {
-    color: $fontColor;
     text-decoration: none;
     &:hover {
       text-decoration: none;
@@ -190,27 +188,27 @@
 .box::before {
   top: 0;
   left: 0;
-  border-top: 1px solid #333333;
-  border-left: 1px solid #333333;
+  border-top: 1px solid #484848;
+  border-left: 1px solid #484848;
 }
 .boxTxt::before {
   top: 0;
   right: 0;
-  border-top: 1px solid #333333;
-  border-right: 1px solid #333333;
+  border-top: 1px solid #484848;
+  border-right: 1px solid #484848;
 }
 
 .box::after {
   bottom: 0;
   left: 0;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #333333;
+  border-bottom: 1px solid #484848;
+  border-left: 1px solid #484848;
 }
 .boxTxt::after {
   bottom: 0;
   right: 0;
-  border-bottom: 1px solid #333333;
-  border-right: 1px solid #333333;
+  border-bottom: 1px solid #484848;
+  border-right: 1px solid #484848;
 }
 
 .boxTxt {

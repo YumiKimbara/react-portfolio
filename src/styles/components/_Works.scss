@@ -29,10 +29,18 @@
   }
 }
 
-#worksSection {
+.worksSection {
   margin-top: 10%;
 }
 
 .comingSoon {
   margin-bottom: 2rem;
+}
+
+.skillIcons {
+  display: flex;
+  justify-content: center;
+  div {
+    padding: 0 0.5rem;
+  }
 }
