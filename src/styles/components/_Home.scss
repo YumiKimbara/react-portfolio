@@ -1,107 +1,107 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 
-// @keyframes circleAnimation1 {
-//   0% {
-//     transform: rotate(0deg);
-//     border-radius: 75% 34% 47% 54%/47%;
-//   }
-//   25% {
-//     transform: rotate(90deg);
-//     border-radius: 62% 38% 33% 67% / 55% 56% 44% 45%;
-//   }
-//   50% {
-//     transform: rotate(180deg);
-//     border-radius: 81% 19% 20% 80% / 68% 53% 47% 32%;
-//   }
-//   75% {
-//     transform: rotate(270deg);
-//     border-radius: 40% 40% 50% 40%/30% 50% 50%;
-//   }
-//   100% {
-//     transform: rotate(360deg);
-//     border-radius: 75% 34% 47% 54%/47%;
-//   }
-// }
+@keyframes circleAnimation1 {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 75% 34% 47% 54%/47%;
+  }
+  25% {
+    transform: rotate(90deg);
+    border-radius: 62% 38% 33% 67% / 55% 56% 44% 45%;
+  }
+  50% {
+    transform: rotate(180deg);
+    border-radius: 81% 19% 20% 80% / 68% 53% 47% 32%;
+  }
+  75% {
+    transform: rotate(270deg);
+    border-radius: 40% 40% 50% 40%/30% 50% 50%;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 75% 34% 47% 54%/47%;
+  }
+}
 
-// @keyframes circleAnimation2 {
-//   0% {
-//     transform: rotate(0deg);
-//     border-radius: 27% 73% 33% 67% / 55% 56% 44% 45%;
-//   }
-//   25% {
-//     transform: rotate(90deg);
-//     border-radius: 27% 73% 24% 76% / 56% 33% 67% 44%;
-//   }
-//   50% {
-//     transform: rotate(180deg);
-//     border-radius: 75% 34% 47% 54%/47%;
-//   }
-//   75% {
-//     transform: rotate(270deg);
-//     border-radius: 70% 30% 54% 46% / 40% 50% 50% 60%;
-//   }
-//   100% {
-//     transform: rotate(360deg);
-//     border-radius: 27% 73% 33% 67% / 55% 56% 44% 45%;
-//   }
-// }
+@keyframes circleAnimation2 {
+  0% {
+    transform: rotate(0deg);
+    border-radius: 27% 73% 33% 67% / 55% 56% 44% 45%;
+  }
+  25% {
+    transform: rotate(90deg);
+    border-radius: 27% 73% 24% 76% / 56% 33% 67% 44%;
+  }
+  50% {
+    transform: rotate(180deg);
+    border-radius: 75% 34% 47% 54%/47%;
+  }
+  75% {
+    transform: rotate(270deg);
+    border-radius: 70% 30% 54% 46% / 40% 50% 50% 60%;
+  }
+  100% {
+    transform: rotate(360deg);
+    border-radius: 27% 73% 33% 67% / 55% 56% 44% 45%;
+  }
+}
 
-// .circle1 {
-//   opacity: 0.6;
-//   width: 25%;
-//   position: absolute;
-//   top: 15rem;
-//   left: 2rem;
-//   height: 300px;
-//   background: $subColor; //
-//   animation: circleAnimation1 50s infinite linear;
-// }
+.circle1 {
+  opacity: 0.6;
+  width: 25%;
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+  height: 300px;
+  background: #578f92; //
+  animation: circleAnimation1 50s infinite linear;
+}
 
-// .circle2 {
-//   opacity: 0.6;
-//   width: 20%;
-//   position: absolute;
-//   left: 8rem;
-//   top: 7rem;
-//   height: 250px;
-//   background: $mainColor;
-//   animation: circleAnimation2 35s infinite linear reverse;
-// }
+.circle2 {
+  opacity: 0.6;
+  width: 20%;
+  position: absolute;
+  left: 8rem;
+  top: 7rem;
+  height: 250px;
+  background: #e7dae2;
+  animation: circleAnimation2 35s infinite linear reverse;
+}
 
-// .circle3 {
-//   opacity: 0.6;
-//   width: 20%;
-//   position: absolute;
-//   right: 5rem;
-//   bottom: 17rem;
-//   height: 250px;
-//   background: $subColor;
-//   animation: circleAnimation1 25s infinite linear;
-//   z-index: 1;
-// }
+.circle3 {
+  opacity: 0.6;
+  width: 20%;
+  position: absolute;
+  right: 5rem;
+  bottom: 17rem;
+  height: 250px;
+  background: #578f92;
+  animation: circleAnimation1 25s infinite linear;
+  z-index: 1;
+}
 
-// .circle4 {
-//   opacity: 0.6;
-//   width: 25%;
-//   position: absolute;
-//   bottom: 3rem;
-//   right: 5rem;
-//   height: 300px;
-//   background: $mainColor; //
-//   animation: circleAnimation1 35s infinite linear reverse;
-// }
+.circle4 {
+  opacity: 0.6;
+  width: 25%;
+  position: absolute;
+  bottom: 3rem;
+  right: 5rem;
+  height: 300px;
+  background: $mainColor; //
+  animation: circleAnimation1 35s infinite linear reverse;
+}
 
-// .circle5 {
-//   opacity: 0.6;
-//   width: 23%;
-//   position: absolute;
-//   bottom: 10rem;
-//   right: 15rem;
-//   height: 270px;
-//   background: $subColor;
-//   animation: circleAnimation2 50s infinite linear;
-//   z-index: -1;
-// }
+.circle5 {
+  opacity: 0.6;
+  width: 23%;
+  position: absolute;
+  bottom: 10rem;
+  right: 15rem;
+  height: 270px;
+  background: #e7dae2;
+  animation: circleAnimation2 50s infinite linear;
+  z-index: -1;
+}
 
 .mainSection {
   padding-top: 100px;

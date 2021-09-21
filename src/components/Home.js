@@ -13,6 +13,14 @@ const Home = () => {
             <br />
             based in Vancouver, Canada.
           </h1>
+          <img src="./image/circle1.svg" alt="circle1" />
+          <img src="./image/circle2.svg" alt="circle2" />
+
+          {/* <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+          <div class="circle4"></div>
+  <div class="circle5"></div> */}
           <div className="readMore">
             <a className="readMoreDetails" href="#aboutSection">
               Read more
