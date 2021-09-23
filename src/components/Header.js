@@ -1,3 +1,5 @@
+import { Link as Scroll } from "react-scroll";
+
 const Header = () => {
   return (
     <>
@@ -5,24 +7,32 @@ const Header = () => {
         <nav className="navContainer">
           <ul>
             <li className="navBar">
-              <a className="navLinks" href="#homeSection">
-                HOME
-              </a>
+              <Scroll to="homeSection" smooth={true} duration={600}>
+                <a className="navLinks" href="homeSection">
+                  HOME
+                </a>
+              </Scroll>
             </li>
             <li className="navBar">
-              <a className="navLinks" href="#aboutSection">
-                ABOUT
-              </a>
+              <Scroll to="aboutSection" smooth={true} duration={600}>
+                <a className="navLinks" href="aboutSection">
+                  ABOUT
+                </a>
+              </Scroll>
             </li>
             <li className="navBar">
-              <a className="navLinks" href="#worksSection">
-                WORKS
-              </a>
+              <Scroll to="worksSection" smooth={true} duration={600}>
+                <a className="navLinks" href="worksSection">
+                  WORKS
+                </a>
+              </Scroll>
             </li>
             <li className="navBar">
-              <a className="navLinks" href="#contactSection">
-                CONTACT
-              </a>
+              <Scroll to="contactSection" smooth={true} duration={1000}>
+                <a className="navLinks" href="contactSection">
+                  CONTACT
+                </a>
+              </Scroll>
             </li>
           </ul>
         </nav>
