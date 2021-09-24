@@ -66,7 +66,7 @@ const Works = () => {
                 </div>
               </Col>
             </Row>
-            <Row className="worksContainer">
+            <Row className="worksContainer columnReverse">
               <Col>
                 <div className="worksDescription">
                   <h3>Pokédex</h3>
@@ -112,12 +112,16 @@ const Works = () => {
                 </div>
               </Col>
               <Col className="works workImg">
-                <img className="showModal2" src="./image/work2.png" />
+                <div className="workImg">
+                  <img src="./image/work2.png" />
+                </div>
               </Col>
             </Row>
             <Row className="worksContainer">
               <Col className="works workImg">
-                <img className="showModal4" src="./image/work3.png" />
+                <div className="workImg">
+                  <img src="./image/work3.png" />
+                </div>
               </Col>
               <Col>
                 <div className="worksDescription">
@@ -162,7 +166,7 @@ const Works = () => {
                 </div>
               </Col>
             </Row>
-            <Row className="worksContainer workDescription">
+            <Row className="worksContainer">
               <Col>
                 <div className="worksDescription">
                   <h3 className="comingSoon">Coming soon!</h3>
@@ -174,7 +178,9 @@ const Works = () => {
                 </div>
               </Col>
               <Col className="works workImg">
-                <img className="showModal4" src="./image/work4.jpg" />
+                <div className="workImg">
+                  <img src="./image/work4.jpg" />
+                </div>
               </Col>
             </Row>
           </Container>

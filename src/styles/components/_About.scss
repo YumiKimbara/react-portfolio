@@ -64,3 +64,51 @@
   background-color: $mainColor;
   z-index: -1;
 }
+
+@media (max-width: 1024px) {
+  .circle {
+    height: 35vh;
+    width: 25vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutImgContent {
+    padding: 3rem;
+  }
+  .aboutContent {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 414px) {
+  .aboutContainer {
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .circle {
+    height: 15vh;
+    top: 40%;
+    left: 55%;
+  }
+  .img {
+    width: 30vw;
+    position: absolute;
+    left: 25%;
+  }
+  .aboutContent {
+    h2 {
+      font-size: 1rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+    padding: 1rem;
+  }
+}

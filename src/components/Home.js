@@ -27,13 +27,13 @@ const Home = () => {
           <div class="circle5"></div>
           */}
           <div className="readMore">
-            <a className="readMoreDetails" href="#aboutSection">
-              <Scroll to="aboutSection" smooth={true} duration={600}>
+            <Scroll to="aboutSection" smooth={true} duration={600}>
+              <a className="readMoreDetails" href="#aboutSection">
                 {" "}
                 Read more
-              </Scroll>
-              <i className="fas fa-angle-double-down"></i>
-            </a>
+                <i className="fas fa-angle-double-down"></i>
+              </a>
+            </Scroll>
           </div>
         </div>
       </div>
