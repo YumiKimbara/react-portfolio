@@ -26,3 +26,9 @@
     font-size: $pFont3;
   }
 }
+
+@media (max-width: 320px) {
+  .copyright {
+    font-size: $pFont4;
+  }
+}
