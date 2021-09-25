@@ -14,21 +14,15 @@
   .copyright {
     padding: 0.3rem;
     text-align: center;
-    font-size: $pFont3;
+    font-size: $pFont2;
     p {
       margin: 0;
     }
   }
 }
 
-//////////////////////////////////////////////
-//no media query for ipad pro
-
-//////////////////////////////////////////////
-//media query for iphone
-
-@media (max-width: 414px) {
+@media (max-width: 540px) {
   .copyright {
-    font-size: $pFont2;
+    font-size: $pFont3;
   }
 }

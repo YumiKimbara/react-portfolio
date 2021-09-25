@@ -102,13 +102,13 @@
   .aboutContent {
     padding: 2rem;
     h2 {
-      font-size: $h2Font2;
+      font-size: $h2Font3;
     }
     h3 {
-      font-size: $h3Font2;
+      font-size: $h3Font3;
     }
     p {
-      font-size: $pFont2;
+      font-size: $pFont3;
     }
   }
 }
@@ -120,9 +120,8 @@
   }
 
   .circle {
-    // height: 15vh;
-    // top: 40%;
-    // left: 55%;
+    left: 30%;
+    padding: 24%;
   }
   .img {
     width: 30vw;
@@ -130,17 +129,20 @@
     left: 25%;
   }
   .aboutContent {
-    h2 {
-      font-size: $h2Font;
-    }
-
-    h3 {
-      font-size: $h3Font;
-    }
-
-    p {
-      font-size: $pFont;
-    }
     padding: 1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .aboutContent {
+    h2 {
+      font-size: $h2Font4;
+    }
+    h3 {
+      font-size: $h3Font4;
+    }
+    p {
+      font-size: $pFont4;
+    }
   }
 }

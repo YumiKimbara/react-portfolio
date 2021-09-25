@@ -51,7 +51,6 @@
 @media (max-width: 1024px) {
   .navContainer {
     justify-content: center;
-    font-size: $pFont3;
     padding: 0.7rem;
     text-align: center;
 
@@ -61,27 +60,14 @@
   }
 }
 
-//////////////////////////////////////////////
-//media query for ipad
-@media (max-width: 768px) {
-  .navContainer {
-  }
-}
-
-//////////////////////////////////////////////
-//media query for iphone
-
-@media (max-width: 414px) {
-  .navContainer {
+@media (max-width: 360px) {
+  .navContainer a {
     font-size: $pFont2;
   }
 }
 
-//////////////////////////////////////////////
-//media query for galaxy fold
-
-@media (max-width: 280px) {
-  .navBar {
-    padding: 0 0.5rem;
+@media (max-width: 320px) {
+  .navContainer a {
+    font-size: $pFont3;
   }
 }

@@ -33,7 +33,7 @@
 .circle1 {
   opacity: 0.6;
   position: absolute;
-  top: 7vh;
+  top: 20vh;
   left: 7vw;
   height: 500px;
   animation: circleAnimation1 2s ease-in-out;
@@ -44,9 +44,9 @@
 .circle2 {
   opacity: 0.6;
   position: absolute;
-  left: -3vw;
-  bottom: 5vh;
-  height: 550px;
+  left: 0vw;
+  bottom: -2vh;
+  height: 450px;
   animation: circleAnimation2 2s ease-in-out;
   animation-fill-mode: forwards;
   z-index: 1;
@@ -55,8 +55,8 @@
 .circle3 {
   opacity: 0.6;
   position: absolute;
-  right: 7vw;
-  bottom: 0vh;
+  right: 5vw;
+  bottom: 6vh;
   height: 500px;
   animation: circleAnimation1 2s ease-in-out;
   animation-fill-mode: forwards;
@@ -76,12 +76,14 @@
 .mainSection {
   padding-top: 100px;
   max-height: calc(100vh - 100px);
+  height: 150vh;
+  display: flex;
+  align-items: center;
 }
 
 .mainMessage {
   width: 35%;
   margin: 0 auto;
-  padding: 15% 0;
   text-align: center;
   h1 {
     animation: introductionAnimation 2s ease-in-out;
@@ -206,123 +208,206 @@
 
 @media (max-width: 1240px) {
   .circle1 {
+    top: 24vh;
     left: 5vw;
     height: 400px;
   }
   .circle2 {
-    top: 15vh;
-    height: 450px;
+    top: 35vh;
+    height: 350px;
   }
   .circle3 {
-    top: 15vh;
-    height: 400px;
+    top: 27vh;
+    height: 380px;
     right: 5vw;
   }
   .circle4 {
-    top: 23vh;
+    top: 35vh;
     right: 5vw;
     height: 230px;
   }
   .mainMessage {
     width: 50%;
-    padding-top: 10%;
   }
   .readMore {
     top: -10vh;
+  }
+  .mainSection {
+    height: 70vh;
   }
 }
 
 @media (max-width: 768px) {
   .circle1 {
-    left: 5vw;
     height: 300px;
-    top: 10vh;
   }
   .circle2 {
-    top: 20vh;
-    height: 350px;
+    left: -3vw;
+    height: 300px;
   }
   .circle3 {
     height: 300px;
     right: 2vw;
   }
   .circle4 {
-    top: 27vh;
-    right: 6vw;
+    top: 37vh;
+    right: 5vw;
     height: 180px;
   }
   .box {
     width: 10vw;
+  }
+  .mainTitle {
+    padding: 5rem 0 1rem 3rem;
   }
 }
 
 @media (max-width: 540px) {
   .mainMessage {
     h1 {
-      font-size: $h1Font3;
+      font-size: $h1Font2;
     }
   }
   .circle1 {
     left: 5vw;
     height: 200px;
-    top: 20vh;
+    top: 30vh;
   }
   .circle2 {
-    top: 25vh;
+    top: 35vh;
     left: -7vw;
     height: 200px;
   }
   .circle3 {
     height: 180px;
     right: 5vw;
-    top: 23vh;
+    top: 32vh;
   }
   .circle4 {
-    top: 32vh;
+    top: 40vh;
     right: 6vw;
     height: 15vh;
     width: 25vw;
   }
   .box {
-    width: 13vw;
+    width: 12vw;
+    a {
+      font-size: $pFont3;
+    }
+  }
+
+  .boxTxt {
+    font-size: $pFont3;
   }
 
   .readMoreDetails {
-    font-size: $pFont2;
+    font-size: $pFont3;
     padding: 0.4rem 1rem;
   }
   .mainTitle {
-    font-size: $h1Font3;
+    font-size: $h1Font2;
     padding: 5rem 0 1rem 3rem;
-  }
-  .boxTxt {
-    font-size: $pFont2;
   }
 }
 
 @media (max-width: 414px) {
   .circle1 {
-    left: 5vw;
-    height: 170px;
-    top: 20vh;
+    left: 10vw;
+    height: 200px;
+    top: 18vh;
   }
   .circle2 {
-    top: 25vh;
-    left: -7vw;
-    height: 170px;
+    top: 18vh;
+    left: 3vw;
+    height: 150px;
+    width: 150px;
+  }
+  .circle3 {
+    height: 180px;
+    right: 10vw;
+    top: 40vh;
+  }
+  .circle4 {
+    top: 48vh;
+    right: 15vw;
+    height: 20vh;
+    width: 28vw;
+  }
+  .box {
+    width: 15vw;
+  }
+  .mainMessage {
+    width: 65%;
+  }
+  .mainTitle {
+    padding: 5rem 0 1rem 0;
+    text-align: center;
+  }
+  .readMoreDetails {
+    top: 30vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .box {
+    width: 17vw;
+  }
+  .circle1 {
+    left: 6vw;
+    height: 200px;
+    top: 16vh;
+  }
+  .circle2 {
+    top: 15vh;
+    left: 2vw;
+    height: 150px;
+    width: 150px;
+  }
+  .circle3 {
+    height: 180px;
+    right: 10vw;
+    top: 40vh;
+  }
+  .circle4 {
+    top: 48vh;
+    right: 15vw;
+    height: 20vh;
+    width: 28vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .circle1 {
+    height: 180px;
+  }
+  .circle2 {
+    height: 130px;
   }
   .circle3 {
     height: 150px;
-    right: 5vw;
-    top: 23vh;
   }
-  .circle4 {
-    top: 32vh;
-    right: 10vw;
-    height: 10vh;
-    width: 22vw;
+  .mainTitle {
+    font-size: $h1Font3;
+  }
+  .mainMessage h1 {
+    font-size: $h1Font3;
+  }
+}
+
+@media (max-width: 320px) {
+  .mainMessage h1 {
+    font-size: $h1Font4;
+  }
+  .readMoreDetails {
+    font-size: $pFont4;
+  }
+  .mainTitle {
+    font-size: $h1Font4;
   }
   .box {
-    width: 13vw;
+    width: 18vw;
+    a {
+      font-size: $pFont4;
+    }
   }
 }

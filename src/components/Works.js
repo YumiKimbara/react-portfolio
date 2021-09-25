@@ -24,19 +24,19 @@ const Works = () => {
                   <h3>Weather App</h3>
                   <div className="skillIcons">
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-html5" width="26" />
+                      <Icon icon="ion:logo-html5" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-css3" width="26" />
+                      <Icon icon="ion:logo-css3" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="cib:js" width="26" />
+                      <Icon icon="cib:js" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-react" width="26" />
+                      <Icon icon="ion:logo-react" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="cib:redux" width="26" />
+                      <Icon icon="cib:redux" className="icons" />
                     </div>
                   </div>
                   <p>
@@ -72,16 +72,16 @@ const Works = () => {
                   <h3>Pokédex</h3>
                   <div className="skillIcons">
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-html5" width="26" />
+                      <Icon icon="ion:logo-html5" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-css3" width="26" />
+                      <Icon icon="ion:logo-css3" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="cib:js" width="26" />
+                      <Icon icon="cib:js" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-sass" width="26" />
+                      <Icon icon="ion:logo-sass" className="icons" />
                     </div>
                   </div>
                   <p>
@@ -128,16 +128,16 @@ const Works = () => {
                   <h3>Task Management App</h3>
                   <div className="skillIcons">
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-html5" width="26" />
+                      <Icon icon="ion:logo-html5" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-css3" width="26" />
+                      <Icon icon="ion:logo-css3" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="cib:js" width="26" />
+                      <Icon icon="cib:js" className="icons" />
                     </div>
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-react" width="26" />
+                      <Icon icon="ion:logo-react" className="icons" />
                     </div>
                   </div>
                   <p>
@@ -166,7 +166,7 @@ const Works = () => {
                 </div>
               </Col>
             </Row>
-            <Row className="worksContainer">
+            <Row className="worksContainer columnReverse">
               <Col>
                 <div className="worksDescription">
                   <h3 className="comingSoon">Coming soon!</h3>

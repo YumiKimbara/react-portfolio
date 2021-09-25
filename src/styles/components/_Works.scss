@@ -57,12 +57,23 @@
     padding: 1rem 5rem;
 
     h3 {
-      font-size: $h3Font2;
+      font-size: $h3Font3;
     }
     p {
-      font-size: $pFont2;
+      font-size: $pFont3;
       margin-top: 2rem;
       margin-bottom: 2rem;
     }
+  }
+}
+
+@media (max-width: 414px) {
+  .worksDescription {
+    padding: 1rem 3rem;
+  }
+}
+@media (max-width: 320px) {
+  .worksDescription {
+    padding: 1rem 1rem;
   }
 }

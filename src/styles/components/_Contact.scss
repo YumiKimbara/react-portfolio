@@ -57,7 +57,7 @@
   }
 
   .contactGmail {
-    font-size: $h2Font3;
+    font-size: $h2Font2;
     padding: 0;
   }
 
@@ -70,24 +70,26 @@
   }
 }
 
-//////////////////////////////////////////////
-//no media query for ipad pro
-
-//////////////////////////////////////////////
-//media query for iphone
-
-@media (max-width: 414px) {
-  .contactGmail {
-    font-size: $h2Font2;
+@media (max-width: 540px) {
+  .contactContainer {
+    font-size: $pFont3;
   }
-
+  .contactGmail {
+    font-size: $h2Font3;
+  }
   .icons {
     font-size: $IconFont2;
   }
+}
 
-  .contactContainer {
-    p {
-      font-size: $pFont3;
-    }
+@media (max-width: 414px) {
+  .icons a {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .icons {
+    font-size: $IconFont3;
   }
 }
