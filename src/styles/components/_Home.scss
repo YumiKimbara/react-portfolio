@@ -34,7 +34,7 @@
   opacity: 0.6;
   position: absolute;
   top: 7vh;
-  left: 10vw;
+  left: 7vw;
   height: 500px;
   animation: circleAnimation1 2s ease-in-out;
   animation-fill-mode: forwards;
@@ -47,7 +47,6 @@
   left: -3vw;
   bottom: 5vh;
   height: 550px;
-  // background: #e7eff1;
   animation: circleAnimation2 2s ease-in-out;
   animation-fill-mode: forwards;
   z-index: 1;
@@ -57,9 +56,8 @@
   opacity: 0.6;
   position: absolute;
   right: 7vw;
-  bottom: -7vh;
+  bottom: 0vh;
   height: 500px;
-  // background: #578f92;
   animation: circleAnimation1 2s ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -75,32 +73,21 @@
   animation-fill-mode: forwards;
 }
 
-// .circle5 {
-//   opacity: 0.6;
-//   width: 23%;
-//   position: absolute;
-//   bottom: 10rem;
-//   right: 15rem;
-//   height: 270px;
-//   background: #a3b5c6;
-//   animation: circleAnimation2 50s infinite linear;
-//   z-index: -1;
-// }
-
 .mainSection {
   padding-top: 100px;
-  height: calc(100vh - 100px);
+  max-height: calc(100vh - 100px);
 }
 
 .mainMessage {
   width: 35%;
   margin: 0 auto;
-  padding-top: 15%;
+  padding: 15% 0;
   text-align: center;
   h1 {
     animation: introductionAnimation 2s ease-in-out;
     animation-fill-mode: forwards;
     font-family: "Caveat", cursive;
+    position: relative;
   }
 }
 
@@ -114,18 +101,20 @@
   justify-content: center;
   font-size: $h3Font;
   align-items: center;
-  position: absolute;
-  bottom: 3rem;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
 }
 
 .readMoreDetails {
-  font-size: 1rem;
+  font-size: $pFont;
   border: 3px solid $mainColor;
   border-radius: 50px;
   padding: 0.5rem 1.5rem;
   transition: 0.3s;
+  position: absolute;
+  top: 23vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
   &:hover {
     background-color: $mainColor;
     text-decoration: none;
@@ -211,4 +200,34 @@
 .boxTxt {
   width: 100%;
   text-align: center;
+}
+
+///////////////////////////////////////
+
+@media (max-width: 1240px) {
+  .circle1 {
+    left: 5vw;
+    height: 400px;
+  }
+  .circle2 {
+    top: 15vh;
+    height: 450px;
+  }
+  .circle3 {
+    top: 15vh;
+    height: 400px;
+    right: 5vw;
+  }
+  .circle4 {
+    top: 23vh;
+    right: 5vw;
+    height: 230px;
+  }
+  .mainMessage {
+    width: 50%;
+    padding-top: 10%;
+  }
+  .readMore {
+    top: -10vh;
+  }
 }

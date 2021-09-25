@@ -111,14 +111,14 @@ const Works = () => {
                   </div>
                 </div>
               </Col>
-              <Col className="works workImg">
+              <Col>
                 <div className="workImg">
                   <img src="./image/work2.png" />
                 </div>
               </Col>
             </Row>
             <Row className="worksContainer">
-              <Col className="works workImg">
+              <Col>
                 <div className="workImg">
                   <img src="./image/work3.png" />
                 </div>
@@ -177,7 +177,7 @@ const Works = () => {
                   </a>
                 </div>
               </Col>
-              <Col className="works workImg">
+              <Col>
                 <div className="workImg">
                   <img src="./image/work4.jpg" />
                 </div>
