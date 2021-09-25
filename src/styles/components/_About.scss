@@ -78,9 +78,11 @@
 }
 
 @media (max-width: 1024px) {
-  .circle {
-    // height: 35vh;
-    // width: 25vw;
+  .aboutContent {
+    padding: 5rem;
+  }
+  .aboutImgContent {
+    padding: 5rem;
   }
 }
 
@@ -90,6 +92,24 @@
   }
   .aboutContent {
     padding: 3rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .aboutImgContent {
+    padding: 2rem;
+  }
+  .aboutContent {
+    padding: 2rem;
+    h2 {
+      font-size: $h2Font2;
+    }
+    h3 {
+      font-size: $h3Font2;
+    }
+    p {
+      font-size: $pFont2;
+    }
   }
 }
 

@@ -16,7 +16,7 @@ const Works = () => {
             <Row className="worksContainer">
               <Col>
                 <div className="workImg">
-                  <img className="showModal1" src="./image/work1.png" />
+                  <img src="./image/work1.png" />
                 </div>
               </Col>
               <Col>

@@ -1,5 +1,8 @@
 import { MotionAnimate } from "react-motion-animate";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
 const Contact = () => {
   return (
     <>
@@ -24,14 +27,14 @@ const Contact = () => {
                 rel="linkedin"
                 target="_blank"
               >
-                <i className="fab fa-linkedin"></i>
+                <FontAwesomeIcon icon={faLinkedin} />
               </a>
               <a
                 href="https://github.com/YumiKimbara"
-                rel="linkedin"
+                rel="github"
                 target="_blank"
               >
-                <i className="fab fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
           </div>

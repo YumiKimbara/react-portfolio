@@ -18,7 +18,7 @@
 
 .contactContainer {
   background-color: $mainColor;
-  padding: 5%;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -36,8 +36,8 @@
 .icons {
   font-size: $IconFont;
   @include displayCenter;
-  i {
-    margin: 3rem 3rem 0 3rem;
+  a {
+    padding: 1rem 3rem;
     //0.3s to go back
     transition-duration: 0.3s;
 
@@ -62,7 +62,7 @@
   }
 
   .icons {
-    font-size: $IconFont3;
+    // font-size: $IconFont3;
     @include displayCenter;
     i {
       margin: 1.5rem;

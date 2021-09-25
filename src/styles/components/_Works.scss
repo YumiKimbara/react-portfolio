@@ -18,7 +18,8 @@
 .worksDescription {
   // Bootstrapにpaddingが設定されているから、
   // 新しくpaddingを変更する場合は!importantで優先順位を決める必要がある。
-  padding: 2rem 3rem;
+  padding: 2rem 5rem;
+
   h3 {
     font-size: $h3Font;
   }
@@ -48,5 +49,20 @@
 @media (max-width: 991px) {
   .columnReverse {
     flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 540px) {
+  .worksDescription {
+    padding: 1rem 5rem;
+
+    h3 {
+      font-size: $h3Font2;
+    }
+    p {
+      font-size: $pFont2;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
   }
 }
