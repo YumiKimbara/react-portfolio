@@ -21,6 +21,52 @@ const Works = () => {
               </Col>
               <Col>
                 <div className="worksDescription">
+                  <h3>FF Matcher</h3>
+                  <div className="skillIcons">
+                    <div className="skillIcon">
+                      <Icon icon="ion:logo-html5" className="icons" />
+                    </div>
+                    <div className="skillIcon">
+                      <Icon icon="ion:logo-css3" className="icons" />
+                    </div>
+                    <div className="skillIcon">
+                      <Icon icon="cib:js" className="icons" />
+                    </div>
+                    <div className="skillIcon">
+                      <Icon icon="ion:logo-react" className="icons" />
+                    </div>
+                    <div className="skillIcon">
+                      <Icon icon="cib:redux" className="icons" />
+                    </div>
+                    <div className="skillIcon">
+                      <Icon icon="fa-brands:node-js" className="icons" />
+                    </div>
+                    <div className="skillIcon">
+                      <Icon icon="cib:mongodb" className="icons" />
+                    </div>
+                  </div>
+                  <p>
+                    This is a fullstack application that you can find your
+                    favorite Final Fantasy series by just answering a few
+                    questions! Node.js is used for the authentication and
+                    mongoDB is used for storeing data.
+                  </p>
+                  <div className="box">
+                    <a href="" rel="work" target="_blank">
+                      <div className="boxTxt">website</div>
+                    </a>
+                  </div>
+                  <div className="box">
+                    <a href="" rel="work" target="_blank">
+                      <div className="boxTxt">Github</div>
+                    </a>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+            <Row className="worksContainer columnReverse">
+              <Col>
+                <div className="worksDescription">
                   <h3>Weather App</h3>
                   <div className="skillIcons">
                     <div className="skillIcon">
@@ -65,8 +111,18 @@ const Works = () => {
                   </div>
                 </div>
               </Col>
+              <Col>
+                <div className="workImg">
+                  <img src="./image/work2.png" />
+                </div>
+              </Col>
             </Row>
-            <Row className="worksContainer columnReverse">
+            <Row className="worksContainer">
+              <Col>
+                <div className="workImg">
+                  <img src="./image/work3.png" />
+                </div>
+              </Col>
               <Col>
                 <div className="worksDescription">
                   <h3>Pokédex</h3>
@@ -111,18 +167,8 @@ const Works = () => {
                   </div>
                 </div>
               </Col>
-              <Col>
-                <div className="workImg">
-                  <img src="./image/work2.png" />
-                </div>
-              </Col>
             </Row>
-            <Row className="worksContainer">
-              <Col>
-                <div className="workImg">
-                  <img src="./image/work3.png" />
-                </div>
-              </Col>
+            <Row className="worksContainer columnReverse">
               <Col>
                 <div className="worksDescription">
                   <h3>Task Management App</h3>
@@ -165,21 +211,9 @@ const Works = () => {
                   </div>
                 </div>
               </Col>
-            </Row>
-            <Row className="worksContainer columnReverse">
-              <Col>
-                <div className="worksDescription">
-                  <h3 className="comingSoon">Coming soon!</h3>
-                  <a href="javascript:void(0);">
-                    <div className="box">
-                      <div className="boxTxt">website</div>
-                    </div>
-                  </a>
-                </div>
-              </Col>
               <Col>
                 <div className="workImg">
-                  <img src="./image/work4.jpg" />
+                  <img src="./image/work4.png" />
                 </div>
               </Col>
             </Row>
