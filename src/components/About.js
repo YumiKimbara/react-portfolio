@@ -16,7 +16,10 @@ const About = () => {
             </h2>
             <h2>Front-end Developer based in Vancouver, Canada.</h2>
             <h3>Skills</h3>
-            <p>HTML5, CSS3, Sass, JavaScript, React, Node, Bootstrap, Git</p>
+            <p>
+              HTML5, CSS3, Sass, JavaScript, React.js, Node.js, Express.js,
+              MongoDB, Bootstrap, Vercel, Heroku, Git
+            </p>
             <h3>Education</h3>
             <p>
               Web and Mobile App Development Co-Op Diploma in Cornerstone
