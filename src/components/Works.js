@@ -51,13 +51,13 @@ const Works = () => {
                     questions! Node.js is used for the authentication and
                     mongoDB is used for storeing data.
                   </p>
+
                   <div className="box">
-                    <a href="" rel="work" target="_blank">
-                      <div className="boxTxt">website</div>
-                    </a>
-                  </div>
-                  <div className="box">
-                    <a href="" rel="work" target="_blank">
+                    <a
+                      href="https://github.com/YumiKimbara/FF-Matcher"
+                      rel="work"
+                      target="_blank"
+                    >
                       <div className="boxTxt">Github</div>
                     </a>
                   </div>
