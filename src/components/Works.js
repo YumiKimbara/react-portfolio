@@ -24,15 +24,6 @@ const Works = () => {
                   <h3>FF Matcher</h3>
                   <div className="skillIcons">
                     <div className="skillIcon">
-                      <Icon icon="ion:logo-html5" className="icons" />
-                    </div>
-                    <div className="skillIcon">
-                      <Icon icon="ion:logo-css3" className="icons" />
-                    </div>
-                    <div className="skillIcon">
-                      <Icon icon="cib:js" className="icons" />
-                    </div>
-                    <div className="skillIcon">
                       <Icon icon="ion:logo-react" className="icons" />
                     </div>
                     <div className="skillIcon">
@@ -69,15 +60,6 @@ const Works = () => {
                 <div className="worksDescription">
                   <h3>Weather App</h3>
                   <div className="skillIcons">
-                    <div className="skillIcon">
-                      <Icon icon="ion:logo-html5" className="icons" />
-                    </div>
-                    <div className="skillIcon">
-                      <Icon icon="ion:logo-css3" className="icons" />
-                    </div>
-                    <div className="skillIcon">
-                      <Icon icon="cib:js" className="icons" />
-                    </div>
                     <div className="skillIcon">
                       <Icon icon="ion:logo-react" className="icons" />
                     </div>
@@ -173,15 +155,6 @@ const Works = () => {
                 <div className="worksDescription">
                   <h3>Task Management App</h3>
                   <div className="skillIcons">
-                    <div className="skillIcon">
-                      <Icon icon="ion:logo-html5" className="icons" />
-                    </div>
-                    <div className="skillIcon">
-                      <Icon icon="ion:logo-css3" className="icons" />
-                    </div>
-                    <div className="skillIcon">
-                      <Icon icon="cib:js" className="icons" />
-                    </div>
                     <div className="skillIcon">
                       <Icon icon="ion:logo-react" className="icons" />
                     </div>
