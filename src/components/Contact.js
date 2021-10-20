@@ -16,7 +16,7 @@ const Contact = () => {
             <p className="contactGmail">Gmail: a13158y@gmail.com</p>
             <a href="javascript:void(0);">
               <div className="box">
-                <a href="Yumi_Kimbara_Resume.pdf" rel="resume" target="_blank">
+                <a href="Yumi-Kimbara-Resume.pdf" rel="resume" target="_blank">
                   <div className="boxTxt">Resume</div>
                 </a>
               </div>
