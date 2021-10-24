@@ -56,7 +56,7 @@ const Works = () => {
                   </div>
                   <div className="box">
                     <a
-                      href="https://github.com/YumiKimbara/FF-Matcher"
+                      href="https://github.com/YumiKimbara/FFMatcher"
                       rel="work"
                       target="_blank"
                     >

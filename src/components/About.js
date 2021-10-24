@@ -18,7 +18,7 @@ const About = () => {
             <h3>Skills</h3>
             <p>
               HTML5, CSS3, Sass, JavaScript, React.js, Node.js, Express.js,
-              MongoDB, Bootstrap, Vercel, Heroku, Git
+              MongoDB, Bootstrap, Vercel, Heroku, AWS, Git
             </p>
             <h3>Education</h3>
             <p>
