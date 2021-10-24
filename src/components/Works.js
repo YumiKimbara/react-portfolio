@@ -45,7 +45,15 @@ const Works = () => {
                     questions! Node.js is used for the authentication and
                     mongoDB is used for storeing data.
                   </p>
-
+                  <div className="box">
+                    <a
+                      href="https://weather-app-react-redux.vercel.app/"
+                      rel="work"
+                      target="_blank"
+                    >
+                      <div className="boxTxt">website</div>
+                    </a>
+                  </div>
                   <div className="box">
                     <a
                       href="https://github.com/YumiKimbara/FF-Matcher"
