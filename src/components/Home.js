@@ -20,12 +20,6 @@ const Home = () => {
           <img class="circle3" src="./image/circle3.svg" alt="circle3" />
           <img class="circle4" src="./image/circle4.svg" alt="circle4" />
 
-          {/*<div class="circle1"></div>
-          <div class="circle2"></div>
-          <div class="circle3"></div>
-          <div class="circle4"></div>
-          <div class="circle5"></div>
-          */}
           <div className="readMore">
             <Scroll to="aboutSection" smooth={true} duration={600}>
               <a className="readMoreDetails" href="#aboutSection">
