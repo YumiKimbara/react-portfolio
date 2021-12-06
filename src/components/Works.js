@@ -47,7 +47,7 @@ const Works = () => {
                   </p>
                   <div className="box">
                     <a
-                      href="http://ec2-35-183-87-67.ca-central-1.compute.amazonaws.com/"
+                      href="http://ec2-35-183-29-247.ca-central-1.compute.amazonaws.com/"
                       rel="work"
                       target="_blank"
                     >
