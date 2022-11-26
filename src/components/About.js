@@ -15,10 +15,10 @@ const About = () => {
               <span className="myName">Yumi Kimbara</span>
             </h2>
             <h2>Front-end Developer based in Vancouver, Canada.</h2>
-            <h3>Skills</h3>
+            <h3>Skills and Tools</h3>
             <p>
-              HTML5, CSS3, Sass, JavaScript, React.js, Node.js, Express.js,
-              MongoDB, Bootstrap, Vercel, Heroku, AWS, Git
+              JavaScript, TypeScript, React.js, Next.js, GraphQL, HTML, CSS, Sass, Node.js, Express.js, MongoDB,
+              Bootstrap, Material UI, Vercel, API, Git            
             </p>
             <h3>Education</h3>
             <p>
