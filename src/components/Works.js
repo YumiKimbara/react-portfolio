@@ -47,10 +47,9 @@ const Works = () => {
                   </p>
                   <div className="box">
                     <a
-                      href="http://ec2-35-183-29-247.ca-central-1.compute.amazonaws.com/"
+                      // href="http://ec2-35-183-29-247.ca-central-1.compute.amazonaws.com/"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">website</div>
                     </a>
                   </div>
@@ -58,11 +57,11 @@ const Works = () => {
                     <a
                       href="https://github.com/YumiKimbara/FFMatcher"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">Github</div>
                     </a>
                   </div>
+                  <p>* This website is temporarily inaccessible.</p>
                 </div>
               </Col>
             </Row>
@@ -88,8 +87,7 @@ const Works = () => {
                     <a
                       href="https://weather-app-react-redux.vercel.app/"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">website</div>
                     </a>
                   </div>
@@ -97,8 +95,7 @@ const Works = () => {
                     <a
                       href="https://github.com/YumiKimbara/weather-app-react-redux"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">Github</div>
                     </a>
                   </div>
@@ -144,8 +141,7 @@ const Works = () => {
                     <a
                       href="https://pokedex-eqksvrcmv-yumi0127.vercel.app/"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">website</div>
                     </a>
                   </div>
@@ -153,8 +149,7 @@ const Works = () => {
                     <a
                       href="https://github.com/YumiKimbara/pokedex"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">Github</div>
                     </a>
                   </div>
@@ -179,8 +174,7 @@ const Works = () => {
                     <a
                       href="https://task-management-phi.vercel.app/"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">website</div>
                     </a>
                   </div>
@@ -188,8 +182,7 @@ const Works = () => {
                     <a
                       href="https://github.com/YumiKimbara/task-management"
                       rel="work"
-                      target="_blank"
-                    >
+                      target="_blank">
                       <div className="boxTxt">Github</div>
                     </a>
                   </div>
