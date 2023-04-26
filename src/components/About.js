@@ -17,8 +17,15 @@ const About = () => {
             <h2>Front-end Developer based in Vancouver, Canada.</h2>
             <h3>Skills and Tools</h3>
             <p>
-              JavaScript, TypeScript, React.js, Next.js, GraphQL, HTML, CSS, Sass, Node.js, Express.js, MongoDB,
-              Bootstrap, Material UI, Vercel, API, Git            
+              JavaScript, TypeScript, React.js, Next.js, GraphQL, HTML, CSS,
+              Sass, Node.js, Express.js, MongoDB, Bootstrap, Material UI,
+              Vercel, API, Git
+            </p>
+            <h3>Work Experience</h3>
+            <p>
+              *Simbi by Jugaad Ventures Inc. — Front-end developer
+              <br />
+              *Musician First — Front-end developer
             </p>
             <h3>Education</h3>
             <p>
