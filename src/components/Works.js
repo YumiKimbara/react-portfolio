@@ -35,9 +35,6 @@ const Works = () => {
                     <div className="skillIcon">
                       <Icon icon="cib:mongodb" className="icons" />
                     </div>
-                    <div className="skillIcon">
-                      <Icon icon="cib-amazon-aws" className="icons" />
-                    </div>
                   </div>
                   <p>
                     This is a fullstack application that you can find your
@@ -47,7 +44,7 @@ const Works = () => {
                   </p>
                   <div className="box">
                     <a
-                      // href="http://ec2-35-183-29-247.ca-central-1.compute.amazonaws.com/"
+                      href="https://ff-matcher.onrender.com/"
                       rel="work"
                       target="_blank">
                       <div className="boxTxt">website</div>
@@ -61,7 +58,6 @@ const Works = () => {
                       <div className="boxTxt">Github</div>
                     </a>
                   </div>
-                  <p>* This website is temporarily inaccessible.</p>
                 </div>
               </Col>
             </Row>
