@@ -18,8 +18,8 @@ const About = () => {
             <h3>Skills and Tools</h3>
             <p>
               JavaScript, TypeScript, React.js, Next.js, GraphQL, HTML, CSS,
-              Sass, Node.js, Express.js, MongoDB, Bootstrap, Material UI,
-              Vercel, API, Git
+              Sass, Node.js, Express.js, MongoDB, Bootstrap, Material UI, Jest,
+              React Testing Library, Vercel, API, Git
             </p>
             <h3>Work Experience</h3>
             <p>
